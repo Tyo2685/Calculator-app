@@ -8,7 +8,7 @@ class Calculator{
     static void Main(string[] args)
     {
         Console.Title = "Calculator Tyo";
-        Console.Write("1.Penjumlahan\n2.Pengurangan\n3.Perkalian\n4Pembagian");
+        Console.Write("1.Penjumlahan\n2.Pengurangan\n3.Perkalian\n4.Pembagian\n");
         Console.Write("Pilihan Anda = ");
         int pilihan = int.Parse(Console.ReadLine());
         
